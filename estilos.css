@@ -1,17 +1,20 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 header{
     background-color: rgb(14, 12, 12);
-    
+    background-image: url(./media/stressed_linen.png);
 }
-
+header img{
+    margin-bottom: -4px;
+}
 .centrar{
     margin:auto;
     margin-bottom: 0px;
     display:block;
-    padding: 3px;
+    padding: 0px;
 }
 h3{
     font-family:'Kanit', sans-serif;
@@ -27,6 +30,8 @@ nav{
     position: relative;
     bottom: 70px;
     left: 500px;
+    display: flex;
+    flex-direction: row;
 }
 
 .navBackground{
@@ -39,25 +44,39 @@ nav{
     font-family:'Kanit', sans-serif;
     display: inline-block;
     padding: 7px;
-    margin: 5px;
+    margin: 3px;
 }
 .listaNav a{
     text-decoration: none;
     color: beige;
+    opacity: 50%;
+    
+}
+.listaNav a:hover{
+    color:rgb(179, 155, 49);
+    opacity: 100%;
+    background-color: rgb(43, 43, 13);
+    border-style:solid;
+    border-radius: 10%;
 }
 .mainBackground{
-    background-color: rgb(14, 12, 12);
+    background-image: url(./media/stressed_linen.png);
 }
 main p{
+    font-family: 'Source Serif Pro', serif;
+    text-align: center;
     padding:40px;
     color: beige;
 }
 footer{
     background-color: rgb(43, 41, 41);
-    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-between;
 }
-
-footer div{
-    text-align: right;
+footer h3 a{
+    text-decoration: none;
+    color: beige;
+    font-size: x-large;
 }
-
