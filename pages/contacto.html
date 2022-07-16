@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Source+Serif+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../estilos.css">
     <title>Contacto</title>
 </head>
 <body>
     <header>
-        <img src="../media/Logo.jpg" alt="Logo" width="150px" height="150">
-        <br>
-        <h3>ESTACION ALBERDI</h3>
+        <img class="centrar" src="../media/Logo.jpg" alt="Logo" width="300px" height="300px">
         <nav>
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
@@ -22,19 +24,21 @@
         </nav>
     </header>
     <main>
-        <section>
-            <img src="../media/delivery.PNG" alt="foto delivery" width="400px" height="500px">
+        <section class="delivery">
+            <p>
+            <img src="../media/delivery.PNG" alt="foto delivery" width="600px" height="700px">
+            </p >
         </section>
-        <section>
-            <h3>Donde nos podes encontrar? Aca!</h3>
+        <section class="contacto">
             <div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.77927479529!2d-58.50112188477084!3d-34.5844511804644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb76c5231f8ab%3A0xd2e5723c6a2d041a!2sEstaci%C3%B3n%20Alberdi!5e0!3m2!1ses!2sar!4v1657387263714!5m2!1ses!2sar" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h3>Donde nos podes encontrar? Aca!</h3>
+            
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.77927479529!2d-58.50112188477084!3d-34.5844511804644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb76c5231f8ab%3A0xd2e5723c6a2d041a!2sEstaci%C3%B3n%20Alberdi!5e0!3m2!1ses!2sar!4v1657387263714!5m2!1ses!2sar" width="650" height="430" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-        </section>
-        <section>
+            
+            <div>
             <h3>Queres contactarnos?</h3>
-        </section>
-        <section>   
+            
             <form action="X">
                 <label for="Nombre">Nombre y apellido:
                 <input type="text" placeholder="Nombre y Apellido"><br>
@@ -46,7 +50,7 @@
                    <input type="tel" placeholder="11-6666-3333" name="telefono"><br>
                 </label>
                 <label for="Comentarios">Contanos porque queres contactarnos?:
-                    <br><textarea placeholder="Comentarios"></textarea><br>
+                    <br><textarea placeholder="Comentarios" rows="7" cols="55"></textarea><br>
                 </label>
                 <div>
                     <label for="Info">Queres recibir info sobre nosotros?
@@ -58,18 +62,17 @@
                 </div>
                 </label>
             </form>
+            </div>
         </section>
         <br>
         <br>
     </main>
     <footer>
-        <br>
-            <img src="../media/Logo.jpg" alt="Logo" width="70px" height="70px" >
-            <h3><strong><a href="pages/contacto.html">Contacto</a></strong></h3>
-        <br>
+        <img src="../media/Logo.jpg" alt="Logo" width="70px" height="70px" >
+        <h3><strong><a href="pages/contacto.html">Queres contactarnos?</a></strong></h3>
         <div>
-            <a href="https://www.facebook.com/estacionalberdi" target="_blank"><img src="../media/facebook.png" alt="facebook" width="50px" height="50px"></a>
-            <a href="https://www.instagram.com/estacionalberdi/" target="_blank"><img src="../media/instagram.jpg" alt="instagram" width="50px" height="50px"></a>
+        <a href="https://www.facebook.com/estacionalberdi" target="_blank"><img src="../media/facebook.png" alt="facebook" width="50px" height="50px"></a>
+        <a href="https://www.instagram.com/estacionalberdi/" target="_blank"><img src="../media/instagram.png" alt="instagram" width="50px" height="50px"></a>
         </div>
     </footer>
 </body>
