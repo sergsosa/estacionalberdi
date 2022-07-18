@@ -10,6 +10,7 @@ header{
 }
 header img{
     margin-bottom: -4px;
+
 }
 .centrar{
     margin:auto;
@@ -50,9 +51,9 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: beige;
-    opacity: 60%;
-    
+    opacity: .5;
 }
+
 nav ul li a:hover{
     color:rgb(242, 239, 226);
     opacity: 100%;
@@ -62,15 +63,36 @@ nav ul li a:hover{
 }
 main{
     background-image: url(./media/stressed_linen.png);
+    position:relative;
 }
 main p{
     font-family: 'Source Serif Pro', serif;
     text-align: center;
+    font-size: 1.3rem;
     padding:40px;
     color: beige;
 }
+main h3{
+    color: beige;
+    font-size: 2rem;
+    padding: 30px;
+}
+main form{
+    color: beige;
+    background-color: gray;
+    display: inline-block;
+    border:solid 5px beige;
+    padding: 40px;
+    font-family:'Kanit', sans-serif;
+    font-size: 1rem;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+  }
 footer{
     background-color: rgb(43, 41, 41);
+    position: static;
     display: flex;
     flex-wrap: wrap;
     flex-direction:row;
@@ -89,11 +111,41 @@ footer h3 a{
     flex-wrap:wrap;
 }
 #productos img{
-    opacity: 50%;
+    opacity: .5;
     border-color: beige;
     border-style: solid;
     border-radius:5%;
 }
 #productos img:hover{
-    opacity: 100%;
+    opacity: 1;
+}
+#tabla table{
+    color: beige;
+    position: relative;
+    margin:0 auto;
+}
+.bebidas{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+    flex-wrap:wrap;
+}
+.bebidas img{
+    opacity: .5;
+    border-color: beige;
+    border-style: solid;
+    border-radius:5%;
+}
+.bebidas img:hover{
+    opacity: 1;
+}
+.delivery img{
+    margin:0 auto;
+    padding: 40px;
+}
+.contacto{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
 }
