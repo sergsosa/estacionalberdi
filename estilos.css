@@ -3,10 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr auto 100px;
+}
+
 header{
-    background-color: rgb(14, 12, 12);
+    grid-row: 1/2;
+    grid-column: 1/5;
+    background: rgb(14, 12, 12);
     background-image: url(./media/stressed_linen.png);
-    
+    align-items: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    opacity: 1;
+    z-index: 999;
 }
 header img{
     margin-bottom: -4px;
@@ -63,7 +76,9 @@ nav ul li a:hover{
 }
 main{
     background-image: url(./media/stressed_linen.png);
-    position:relative;
+    grid-row: 2/3;
+    grid-column: 1/5;
+    width: 100%;
 }
 main p{
     font-family: 'Source Serif Pro', serif;
@@ -97,26 +112,48 @@ footer{
     flex-wrap: wrap;
     flex-direction:row;
     justify-content: space-between;
+    grid-row: 3/4;
+    grid-column: 1/5;
+    width: 100%;
+    align-items: center;
 }
 footer h3 a{
     text-decoration: none;
     color: beige;
     font-size: x-large;
 }
-#productos{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 30px;
-    flex-wrap:wrap;
+.productos{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr ;
+    padding: 20px;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+   
 }
-#productos img{
+.productos div{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 20px;
+}
+.productos textarea{
+    background-color: rgb(29, 54, 29);
+    color: beige;
+    border: solid rgb(15, 15, 15);
+    border-radius: 5% ;
+    font-family: 'Source Serif Pro', serif;
+    text-align: center;
+    
+}
+.productos img{
     opacity: .5;
     border-color: beige;
     border-style: solid;
     border-radius:5%;
 }
-#productos img:hover{
+.productos img:hover{
     opacity: 1;
 }
 #tabla table{
@@ -124,7 +161,7 @@ footer h3 a{
     position: relative;
     margin:0 auto;
 }
-.bebidas{
+/* .bebidas{
     display:flex;
     flex-direction: row;
     justify-content: space-around;
@@ -138,8 +175,8 @@ footer h3 a{
     border-radius:5%;
 }
 .bebidas img:hover{
-    opacity: 1;
-}
+    opacity: 1; 
+}*/
 .delivery img{
     margin:0 auto;
     padding: 40px;
