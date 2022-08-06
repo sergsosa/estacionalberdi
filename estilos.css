@@ -25,6 +25,11 @@ header img{
     margin-bottom: -4px;
 
 }
+.header__container{
+    display: flex;
+    flex-direction: row;
+
+}
 .centrar{
     margin:auto;
     margin-bottom: 0px;
@@ -163,22 +168,7 @@ footer h3 a{
     position: relative;
     margin:0 auto;
 }
-/* .bebidas{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 30px;
-    flex-wrap:wrap;
-}
-.bebidas img{
-    opacity: .5;
-    border-color: beige;
-    border-style: solid;
-    border-radius:5%;
-}
-.bebidas img:hover{
-    opacity: 1; 
-}*/
+
 .delivery img{
     margin:0 auto;
     padding: 40px;
@@ -237,6 +227,13 @@ footer h3 a{
         display: flex;
         flex-direction: column;
     }
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+    
+    }
+
 }
 
 @media (max-width:768px){
