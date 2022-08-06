@@ -156,6 +156,7 @@ footer h3 a{
 }
 .productos img:hover{
     opacity: 1;
+    transform: translate(3px, -3px) 
 }
 #tabla table{
     color: beige;
