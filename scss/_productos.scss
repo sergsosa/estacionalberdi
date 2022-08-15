@@ -1,0 +1,28 @@
+.productos{
+    z-index: 500 !important;
+    p{
+        background-color: rgb(29, 54, 29);
+        color: $color-fonts;
+        border: solid 3px $color-fonts;
+        border-radius: 5% ;
+        font-family: $font-page;
+        text-align: center;
+        z-index: 100;
+        margin-top: 1px;
+    }
+    img{
+    
+        border: solid 3px $color-fonts;
+        border-radius:5%;
+        z-index: 100;
+    }
+    .card{
+        background-color: rgb(185, 248, 185);
+    }
+    .card:hover{
+        opacity: 1;
+        transform: translate(3px, -3px);
+        z-index: 100;
+    }
+}
+

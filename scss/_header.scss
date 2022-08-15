@@ -1,0 +1,24 @@
+header{
+
+    background: rgb(14, 12, 12);
+    align-items: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    opacity: 1;
+    z-index: 999;
+    img{
+        margin-bottom: -4px;
+    }
+}
+.header__container{
+    display: flex;
+    flex-direction: row;
+    
+}
+.header__centrar{
+    margin:auto;
+    margin-bottom: 0px;
+    display:block;
+    padding: 0px;
+}

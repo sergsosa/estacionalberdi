@@ -1,0 +1,37 @@
+/* ESTILOS NAVBAR */
+.nav__estilo{
+    background: $grad-navbar;
+    margin:0 !important;
+    padding: 0;
+}
+.navbar-toggler {
+    background-color: rgba(208,181,82,1);
+    border-color: $color-fonts;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    background: $grad-navbar;
+    margin:0 !important;
+    li{
+        font-family:$font-titulos;
+        font-size: 1.2rem;
+        padding: 7px;
+        a{
+            text-decoration: none;
+            color: $color-fonts;
+            opacity: .5;
+        }
+        a:hover{
+            color: $color-fonts;
+            opacity: 100%;
+            background-color: rgb(43, 43, 13);
+            border-style:solid;
+            border-radius: 10%;
+            padding: 5px;
+        }
+    }
+}
