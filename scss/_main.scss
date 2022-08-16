@@ -1,6 +1,7 @@
 main{
-    background-color: black !important;
+    background: rgb(20, 20, 20) !important;
     width: 100%;
+    z-index: 800;
     p{
         font-family: $font-page;
         text-align: center;
@@ -28,6 +29,9 @@ main{
     }
     img{
         z-index: 994;
+    }
+    video{
+        z-index: 990;
     }
 }
 button, input, select, textarea {

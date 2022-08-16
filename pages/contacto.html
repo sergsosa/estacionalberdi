@@ -7,18 +7,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Source+Serif+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../media/favicon-32x32.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
-    <link rel="shortcut icon" href="../media/favicon-32x32.png">
+    
     <title>Contacto</title>
 </head>
 <body>
     <!-- INICIO HEADER -->
-    <div class="container-fluid">
+    
     <header>
-        <img class="background__image_cover"src="../media/pared.jpeg" alt="fondo pared">
+      <img class="background__image_pattern" src="../media/pared_pattern.jpeg" alt="hojas">
+      <div class="container-fluid">
         <div>
         <a href="../index.html"><img class="header__centrar"src="../media/Logo.jpg" alt="Logo" width="200px" height="200px"></a>
         </div>
@@ -48,58 +50,97 @@
               </div>
             </div>
           </nav>
-
+      </div>
     </header>
+    
     <!-- INICIO MAIN -->
     <main>
-        <div class="container-fluid">
-            
+      <img class="background__image"src="../media/pared.jpeg" alt="fondo pared">
+        <div>
             <section>
-                <div class="row m-auto">
-                    <div class="col-lg-12">
-                        <p>
-                        <img src="../media/delivery.PNG" alt="foto delivery" width="600px" height="700px">
-                        </p >
-                    </div>
-                </div>
-            </section>
-            
+              <div>
+                  <div class="row m-0">
+                      <h3>Delivery</h3>
+                      <img class="col-xs-4 col-md-4 col-lg-4 m-auto mb-3 mt-3" src="../media/delivery.PNG" alt="foto delivery">
+                  </div>
+              </div>
+              <div class="row d-flex m-auto">
+                  <div class="col-lg-10 m-auto">
+                      <h3>Donde nos podes encontrar? Aca!</h3>
+                      <iframe class="ratio ratio-16x9" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.77927479529!2d-58.50112188477084!3d-34.5844511804644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb76c5231f8ab%3A0xd2e5723c6a2d041a!2sEstaci%C3%B3n%20Alberdi!5e0!3m2!1ses!2sar!4v1657387263714!5m2!1ses!2sar" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
 
-            <section>
-                <div class="row m-auto p-0">
-                    <div class="col-lg-6">
-                        <h3>Donde nos podes encontrar? Aca!</h3>
-                        <iframe class="col-lg-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.77927479529!2d-58.50112188477084!3d-34.5844511804644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb76c5231f8ab%3A0xd2e5723c6a2d041a!2sEstaci%C3%B3n%20Alberdi!5e0!3m2!1ses!2sar!4v1657387263714!5m2!1ses!2sar" width="650" height="430" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-
-                    <div class="col-lg-6" >
-                        <h3>Queres contactarnos?</h3>
+                  <div>
+                    <h3>Queres contactarnos?</h3>
                     
-                        <form class="col-lg-12" action="X">
-                            <label for="Nombre">Nombre y apellido:
-                            <input class="col-lg-12" type="text" placeholder="Nombre y Apellido"><br>
-                            </label>
-                            <label for="email">Email:
-                                <input class="col-lg-12" type="email" placeholder="aaaa@gmail.com" name="email"><br>
-                            </label>
-                            <label for="Telefono">Telefono:
-                               <input class="col-lg-12" type="tel" placeholder="11-6666-3333" name="telefono"><br>
-                            </label>
-                            <label for="Comentarios">Contanos porque queres contactarnos?:
-                                <br><textarea class="col-lg-12" placeholder="Comentarios" rows="7" cols="55"></textarea><br>
-                            </label>
-                            <div>
-                                <label for="Info">Queres recibir info sobre nosotros?
-                                <input type="checkbox" name="acepta" value="1">
-                            </div>
-                            <div>
-                                <input type="submit" value="Enviar!">
-                                <input type="reset" value="Borrar datos">
-                            </div>
-                            </label>
-                        </form>
-                    </div>
-                </div>
+                    <form class="row g-3 m-3">
+                      <div class="row">
+                        <div class="col-6">
+                          <label for="Nombre" class="form-label">Nombre</label>
+                          <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                        </div>
+                        <div class="col-6">
+                          <label for="Apellido" class="form-label">Apellido</label>
+                          <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <label for="inputAddress" class="form-label">Direccion</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Calle Siempreviva 1234">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputCity" class="form-label">Ciudad</label>
+                        <input type="text" class="form-control" id="inputCity">
+                      </div>
+                      <div class="col-md-4">
+                        <label for="inputState" class="form-label">Provincia</label>
+                        <select id="inputState" class="form-select">
+                          <option selected>CABA</option>
+                          <option>Buenos Aires</option>
+                        </select>
+                      </div>
+                      <div class="col-md-2">
+                        <label for="inputZip" class="form-label">Código Postal</label>
+                        <input type="text" class="form-control" id="inputZip">
+                      </div>
+                      <div class="col-12">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="gridCheck">
+                          <label class="form-check-label" for="gridCheck">
+                            ¿Queres recibir info sobre nosotros?
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                      </div>
+                    </form>
+                
+                    <!-- <form action="X">
+                        <label for="Nombre">Nombre y apellido:
+                        <input type="text" placeholder="Nombre y Apellido"><br>
+                        </label>
+                        <label for="email">Email:
+                            <input type="email" placeholder="aaaa@gmail.com" name="email"><br>
+                        </label>
+                        <label for="Telefono">Telefono:
+                           <input type="tel" placeholder="11-6666-3333" name="telefono"><br>
+                        </label>
+                        <label for="Comentarios">Contanos porque queres contactarnos?:
+                            <br><textarea placeholder="Comentarios" rows="7" cols="55"></textarea><br>
+                        </label>
+                        <div>
+                            <label for="Info">Queres recibir info sobre nosotros?
+                            <input type="checkbox" name="acepta" value="1">
+                        </div>
+                        <div>
+                            <input type="submit" value="Enviar!">
+                            <input type="reset" value="Borrar datos">
+                        </div>
+                        </label>
+                    </form> -->
+                  </div>
+              </div>
             </section>
         </div>
         <br>
@@ -124,7 +165,7 @@
             </ul>
           </footer>
     </div>
-    </div>
+    
      <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
