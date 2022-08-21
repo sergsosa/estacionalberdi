@@ -29,84 +29,80 @@
 }
 
 
-@media (max-width:480px){
+@media (min-width:240px){
 
-/*     body {
-        display:grid;
-        grid-template-columns:1fr;
-        grid-template-rows:auto;
-        
-    } */
-/*     header{
-        grid-row: 1/1;
-        grid-column: 1/1;
-    }
-
-    main{
-        grid-row: 2/3;
-        grid-column: 1/1;
-        
+    .header__centrar {
+        @include sizes(200px,200px);
     }
 
     footer{
-        grid-row: 3/4;
-        grid-column: 1/2;
-    } */
+        @include display-flex(flex,column);
+        justify-content:space-around;
+    
+    }
+    .navbar ul{
+        @include display-flex(flex,column);
+    }
+
+}
+
+
+@media (min-width:480px){
+
+    .header__centrar {
+        @include sizes(200px,200px);
+    }
     .contacto{
-        display: flex;
-        flex-direction: column;
+        @include display-flex(flex,column);
         align-items: center;
 
     }
     .navbar ul{
-        display: flex;
-        flex-direction: column;
+        @include display-flex(flex,column);
     }
     footer{
-        display: flex;
-        flex-direction: column;
+        @include display-flex(flex,column);
         justify-content:space-around;
     
     }
 
 }
 
-@media (max-width:768px){
+@media (min-width:768px){
 
-
-/*     .container{
-        grid-template-columns: repeat(4,1fr);
-        grid-template-rows: 1fr auto 100px;
-
-    } */
-
+    .header__centrar {
+        @include sizes(250px,250px);
+       
+    }
     .contacto{
-        display: flex;
-        flex-direction: column;
+        @include display-flex(flex,column);
         align-items: center;
 
     }
-    main{
-        grid-row: 2/3;
-        grid-column: 1/1;
 
+    footer{
+        @include display-flex(flex,row);
+        justify-content:space-around;
+      
     }
 }
 
-@media (max-width:1300px) {
+@media (min-width:1300px) {
 
-
-/*     .container{
-        grid-template-columns: repeat(4,1fr);
-        grid-template-rows: 1fr auto 100px;
-
-    } */
+    .header__centrar {
+        @include sizes(250px,250px);
+    }
 
     .contacto{
-        display: flex;
-        flex-direction: column;
+        @include display-flex(flex,column);
         align-items: center;
 
+    }
+
+    footer{
+        @include display-flex(flex,row);
+        justify-content:space-around;
+    
     }
 
 }

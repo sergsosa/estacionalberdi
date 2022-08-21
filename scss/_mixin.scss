@@ -1,1 +1,11 @@
 @import "_vars.scss";
+
+@mixin sizes ($width, $height){
+width: $width;
+height: $height;
+}
+
+@mixin display-flex($display,$fdirection){
+    display:$display;
+    flex-direction: $fdirection;
+}

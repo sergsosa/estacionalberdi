@@ -5,9 +5,7 @@ footer{
     flex-wrap: wrap;
     flex-direction:row;
     justify-content: space-between;
-    grid-row: 3/4;
-    grid-column: 1/5;
-    width: 100%;
+    @include sizes(100%, auto);
     align-items: center;
     z-index: 999;
     h3{
