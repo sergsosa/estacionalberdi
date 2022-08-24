@@ -42,14 +42,15 @@ main{
         z-index: 998;
         opacity: 60%;
         text-shadow: black 0.1em 0.1em 0.2em;
+        text-align: center;
         img{
             width: 100%;
-            padding: 30px;
-            border-radius: 30%;
+            padding-top: 30px;
+            border-radius: 0%;
         }
         p {
             font-family: $font-titulos; 
-            font-size: xx-large;
+            font-size: 50px;
             color: rgb(250, 250, 62);
             text-shadow: black 0.1em 0.1em 0.2em;
         }
