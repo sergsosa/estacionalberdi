@@ -33,6 +33,27 @@ main{
     video{
         z-index: 990;
     }
+    .jumbotron{
+        font-size: xx-large;
+        font-family: $font-titulos;
+        color: rgb(246, 246, 46);
+        margin: auto;
+        background-size: cover;
+        z-index: 998;
+        opacity: 60%;
+        text-shadow: black 0.1em 0.1em 0.2em;
+        img{
+            width: 100%;
+            padding: 30px;
+            border-radius: 30%;
+        }
+        p {
+            font-family: $font-titulos; 
+            font-size: xx-large;
+            color: rgb(250, 250, 62);
+            text-shadow: black 0.1em 0.1em 0.2em;
+        }
+    }
 }
 button, input, select, textarea {
     font-family: inherit;

@@ -1,0 +1,7 @@
+Compresión de todas las imágenes y videos para minimizar su tamaño
+Correcciones en textos de footer y secciones de las pages. 
+Modificación de Títulos, Título de la página + nombre del sitio
+Agregado de meta description en cada una de las páginas.
+Agregado keywords a cada página.
+Agregado de sitemap.xml(no estoy seguro si esta bien hecho esto)
+Eliminacion de imagen con texto en pagina de contacto.
