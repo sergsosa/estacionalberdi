@@ -174,7 +174,7 @@ footer {
     border-radius: 5%;
     z-index: 900; }
   .productos .card {
-    background-color: #b9f8b9; }
+    background-color: #1d361d; }
   .productos .card:hover {
     opacity: 1;
     transform: translate(3px, -3px);
@@ -235,6 +235,7 @@ footer {
   box-sizing: border-box; }
 
 @media only screen and (max-width: 600px) {
+  /* RECORDAR! ajustar tamaños texto en contacto y mquerys de boton flotante */
   .btn-flotante {
     font-size: 14px;
     padding: 12px 20px;
