@@ -270,6 +270,10 @@ footer {
     flex-direction: column;
     justify-content: space-around; } }
 
+@media (max-width: 768px) {
+  #pedidos {
+    font-size: 40px; } }
+
 @media (min-width: 768px) {
   .header__centrar {
     width: 200px;
